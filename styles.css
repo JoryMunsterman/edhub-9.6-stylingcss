@@ -1,0 +1,53 @@
+body {
+    font-family: lucida grande,sans-serif;
+    margin: 0;
+}
+
+.titel {
+    overflow: hidden;
+    top: 0;
+    position: relative; /*nog geen oplossing gevonden voor een scroll menu*/
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid black;
+    background-color: hsl(63, 56%, 38%);
+    color: white;
+}
+
+main {
+    padding: 10px;
+    border: 3px solid black;
+    background-color: hsl(74, 95%, 93%)
+}
+
+article {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: hsl(63, 56%, 78%);
+
+}
+
+.circle-one {
+    height: 60px;
+    width: 60px;
+    background-color: hsl(23,100%, 65%);
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.circle-two {
+    height: 60px;
+    width: 60px;
+    background-color: hsl(23,100%, 65%);
+    box-shadow: 5px 5px 5px;
+    border-radius: 50px;
+    display: inline-block;
+}
